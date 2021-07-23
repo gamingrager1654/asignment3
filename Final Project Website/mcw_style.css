@@ -55,9 +55,9 @@ nav ul li:last-of-type {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 50px;
   background-color:rgba(70, 67, 67, 0.8);
-  box-shadow: 0px 0px 40px 20px blueviolet;
+  
 }
 
 /* Hide the images by default */
@@ -158,7 +158,6 @@ nav ul li:last-of-type {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    box-shadow: 0px 0px 40px 20px blueviolet;
   }
   
   .img3 {
@@ -166,7 +165,6 @@ nav ul li:last-of-type {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    box-shadow: 0px 0px 40px 20px blueviolet;
   }
 
   .work1 {
@@ -174,7 +172,7 @@ nav ul li:last-of-type {
     float:left;
     width: 50%;
     margin-top: 25px;
-    box-shadow: 0px 0px 40px 20px blueviolet;
+   
   }
 
   .work2 {
@@ -182,7 +180,7 @@ nav ul li:last-of-type {
     float:right;
     width: 50%;
     margin-top: 25px;
-    box-shadow: 0px 0px 40px 20px blueviolet;
+   
   }
 
   .work3 {
@@ -190,7 +188,7 @@ nav ul li:last-of-type {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    box-shadow: 0px 0px 40px 20px blueviolet;
+    
   }
   footer {
       text-align:center;
@@ -233,7 +231,8 @@ nav ul li:last-of-type {
       float: left;
       width: 33.33%;
       padding: 10px;
-      height: 300px; 
+      height: 300px;
+      
     }
     
     
@@ -242,3 +241,31 @@ nav ul li:last-of-type {
       display: table;
       clear: both;
     }
+
+    .about h1 {
+      text-align: center;
+    }
+
+    .aboutP {
+      text-align: center;
+      color: rgb(0, 0, 0);
+      margin-top: 15px;
+      font-size: 30px;
+      text-decoration: none;
+    }
+
+    /* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: rgb(129, 129, 129);
+    color: rgb(0, 0, 0);
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(129, 129, 129);
+    color: rgb(0, 0, 0);
+  }
+} 
