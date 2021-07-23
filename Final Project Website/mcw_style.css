@@ -268,4 +268,8 @@ nav ul li:last-of-type {
     background-color: rgb(129, 129, 129);
     color: rgb(0, 0, 0);
   }
-} 
+}
+
+.head1 {
+  font-family: 'Oswald', sans-serif;
+}
